@@ -5,6 +5,23 @@
     <title>backend</title>
   </head>
   <body>
+<h1 id="main_page"></h1>
+<textarea name="name" rows="8" cols="80" id="datawe"></textarea>
+<button id="click"type="button" name="button" onclick="cliCked()"></button>
 
+
+    <script src="https://www.gstatic.com/firebasejs/4.10.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBiUvPXndFf41n-IAVXCbfP5SMhFOrXfW4",
+        authDomain: "test-51c33.firebaseapp.com",
+        databaseURL: "https://test-51c33.firebaseio.com",
+        projectId: "test-51c33",
+        storageBucket: "test-51c33.appspot.com",
+        messagingSenderId: "762694005146"
+      };
+      firebase.initializeApp(config);
+    </script>
   </body>
 </html>
