@@ -1,0 +1,10 @@
+{
+  "customers":{
+    "customer_one":{
+      "firstName":"sharun",
+      "birthday":"1221",
+      "location":"222"
+
+    }
+  }
+}
